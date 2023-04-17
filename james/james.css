@@ -1,0 +1,731 @@
+html,
+body {
+	overflow-x: hidden;
+	background-color: black;
+}
+
+.background_image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+	background-color: black
+}
+
+.background_image img {
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+nav {
+	position: relative;
+	width: 100%;
+	top: 0;
+	z-index: 1;
+	padding-right: 50px;
+}
+
+nav .collapse {
+	padding-right: 50px;
+}
+
+.navbar a img {
+	margin: 37px;
+	margin-left: 130px;
+	width: auto !important;
+	max-height: 100% !important;
+}
+
+.container .bordery {
+	margin-left: 90px;
+}
+
+.box span {
+	color: #ff9403;
+}
+
+.col .head {
+	font-size: 53px;
+	line-height: 83px;
+	color: #ff9403;
+	font-weight: 900;
+}
+
+.col h1 {
+	font-weight: 900;
+	font-size: 58px;
+	letter-spacing: 0.15rem;
+}
+
+.col h4 {
+	font-weight: 700;
+	padding-bottom: 0px;
+}
+
+.container .james {
+	z-index: 5;
+	bottom: 30px;
+	position: relative;
+}
+
+.james img {
+	margin-left: -73px;
+}
+
+.middle-section {
+	padding: 50px;
+	left: -100px;
+	padding-left: 0px;
+}
+
+/* icons */
+
+.icon_b {
+	color: white;
+	margin: auto;
+	position: relative;
+	left: -25px;
+	background: black;
+	top: -15px;
+}
+
+/*---------- bottom content --------------*/
+
+.bottom-content {
+	margin-top: 190px;
+	width: 100%;
+	position: relative;
+}
+
+.bottom-content .para {
+	color: #FFFFFF;
+	font-family: "Roboto Slab", Sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 1.4em;
+}
+
+.bottom-content .col .head {
+	font-family: "Roboto", Sans-serif;
+	font-weight: bold;
+	font-size: 69px;
+	line-height: 1;
+}
+
+.bottom-content .row .line {
+	border-right: 1px solid #FFFFFF;
+
+}
+
+.footer p {
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-color: currentColor;
+	-webkit-text-stroke-width: 1px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 115px;
+	text-align: center;
+	margin-top: 70px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 6px;
+}
+
+/* ---------------------- section complete -----------------------*/
+
+/* -------------------- card section start-------------- */
+
+.background_image2 {
+	background-image: url(./imgs/bg1.png);
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.card {
+	background: black;
+	background: rgba(0, 0, 0, 0.19);
+	z-index: 3;
+	position: relative;
+}
+
+.card:hover{
+	border: 2px solid white;
+}
+
+.slide-left {
+	animation: slide-left 0.8s ease-in-out both;
+}
+
+/**
+ * ----------------------------------------
+ * animation slide-left
+ * ----------------------------------------
+ */
+ @keyframes slide-left {
+	0% {
+	  transform: translateX(0);
+	}
+	100% {
+	  transform: translateX(-100px);
+	}
+  }
+  
+
+.card_content {
+	width: 100%;
+	margin: auto;
+
+}
+.card:hover .title{
+	width: 100%;
+	height: 100%;
+	-webkit-text-stroke-color: transparent;
+	-webkit-text-fill-color: currentColor;
+}
+.card .card-body {
+	color: white;
+	opacity: 1.0;
+	
+}
+
+.card-body .title {
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-color: currentColor;
+	-webkit-text-stroke-width: 1px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 35px;
+	
+}
+/* .title:hover {
+	width: 100%;
+	height: 100%;
+	-webkit-text-stroke-color: transparent;
+	-webkit-text-fill-color: currentColor;
+} */
+
+.card-title {
+	font-family: "Bebas Neue", cursive;
+	margin: 0;
+	opacity: .5;
+	letter-spacing: 0
+}
+
+.card-body {
+	position: relative;
+}
+
+.card .card-img-top {
+	visibility: hidden;
+	
+}
+
+.background_image2 .card:hover .card-img-top {
+	transition: 0.6s;
+	visibility: visible;
+	color: #ffffff;
+}
+
+.footer2 {
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-color: currentColor;
+	-webkit-text-stroke-width: 1px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 115px;
+	text-align: center;
+	margin-top: 70px;
+	padding: 30px 0px 30px 0px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 6px;
+	background-color: black;
+	margin-bottom: 0px;
+}
+
+/* -------------------- card section end-------------- */
+
+/* ---------- compton section ------------ */
+
+.column {
+	padding: 3px;
+	margin: 0px;
+}
+
+.compton {
+	background-color: black;
+}
+
+.card_custom {
+	background-color: #1b1b1b;
+	padding: 50px;
+	margin: 0px 20px 0px 0px;
+	transition: none !important;
+	width: 100% !important;
+	border-radius: 0px;
+}
+
+.card_custom:hover {
+	border-color: #1b1b1b !important;
+}
+
+.card_custom img {
+	width: 400px;
+}
+
+.btn {
+	background-image: linear-gradient(90deg, #F86301 0%, #FC8402 90%);
+	border: none;
+	font-size: 18px;
+	color: white;
+	padding: 20px 40px;
+	font-weight: 600;
+	border-radius: 0px;
+}
+
+.btn:hover {
+	color: white;
+}
+
+/* ---------- compton section end ------------ */
+
+
+/*------------ book section start -------------*/
+
+.book .row {
+	padding-top: 100px !important;
+}
+
+.background_image3 {
+	background-image: url(./imgs/color-bg.png);
+	position: relative;
+	background-color: black;
+	color: white;
+}
+
+.image_book img {
+	display: inline-block;
+	width: 480px;
+	height: auto;
+}
+
+.image_text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.arrow {
+	position: absolute;
+}
+
+.arrow img {
+	width: 90px;
+	height: 100%;
+	transform: translate(350px, -122px);
+
+}
+
+.left_content {
+	padding-right: 20px;
+}
+
+.right_content {
+	justify-content: flex-end;
+	padding: 50px;
+	margin-left: 70px;
+}
+
+.right_content .heading {
+	color: #FFFFFF;
+	font-family: "Roboto", Sans-serif;
+	font-size: 43px;
+	font-weight: 600;
+	line-height: 53px;
+}
+
+.right_content span {
+	border-top: 1px solid #fff;
+}
+
+hr {
+	border-top: 2px solid white;
+	width: 45%;
+	opacity: 1;
+}
+
+.hr2 {
+	border-top: 12px solid #F86301;
+	width: 90%;
+	opacity: 1;
+}
+
+.book_para {
+	color: #FFFFFF;
+	font-family: "Roboto", Sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 32px;
+}
+
+/* ------------book section end ------------*/
+
+
+/* ---------career section start ------------*/
+
+.head h1 {
+	text-align: center;
+	color: #FFFFFF;
+	font-family: "Roboto", Sans-serif;
+	font-size: 63px;
+	font-weight: 600;
+	line-height: 53px;
+	word-spacing: 6px;
+}
+
+.sub_head h4 {
+	text-align: center;
+	color: #FFFFFF;
+	font-family: "Roboto", Sans-serif;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 32px;
+	letter-spacing: 3px;
+}
+
+.slider-item img {
+	height: auto;
+	max-width: 100%;
+}
+
+/* --------career section end------------- */
+
+
+/*-------- footer section start ----------*/
+
+.background_image4 img {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.background_image5 img {
+	width: 100%;
+	/* height: 100%; */
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	z-index: 0;
+}
+
+.logo {
+	padding-top: 70px;
+}
+
+.logo img {
+	width: 246px;
+	height: 110px;
+	position: absolute;
+	z-index: 1;
+}
+
+.bottom_para p {
+	display: flex;
+	position: absolute;
+	z-index: 2;
+	text-align: center;
+	color: #ccc;
+	transform: translate(-110px, 131px);
+	font-size: 14px;
+}
+
+.hire {
+	color: #f44b01;
+	z-index: 3;
+	position: absolute;
+	margin-top: 210px;
+	font-family: Roboto, sans-serif;
+	font-size: 12px;
+	cursor: pointer;
+	letter-spacing: 0.2rem;
+}
+
+/* -----------footer section end--------------- */
+
+
+/* media queries */
+
+@media only screen and (min-width: 769px) {
+	.whole {
+		display: block;
+	}
+
+	.newsection {
+		display: none;
+	}
+}
+
+@media only screen and (max-width:768px) {
+	.whole {
+		display: none;
+	}
+
+	.whole .background_image {
+		width: 100vw;
+	}
+
+	body {
+		overflow-x: hidden;
+		width: 100%;
+	}
+
+	.newsection {
+		display: block;
+	}
+
+	.background_image2 .card-img-top {
+		height: -webkit-fill-available;
+		width: auto;
+	}
+
+	.nav_logo img {
+		margin-left: 30px;
+		margin-top: 20px;
+	}
+
+	.navbar-toggler {
+		margin-right: 20px;
+	}
+
+	.card {
+		margin-top: 8px;
+		border: 1px solid white;
+	}
+
+	.footer p {
+		margin-bottom: 0px;
+	}
+
+	.footer2 {
+		font-size: 75px;
+		margin-top: 30px;
+		padding-top: 0;
+		padding-top: 30px;
+	}
+
+
+	/* banner section css for mobile */
+
+	.background_image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		max-width: 100%;
+		height: 154%;
+		z-index: -1;
+		background-color: black
+	}
+
+	.background_image img {
+		height: 100%;
+		width: 100%;
+		max-width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	.nav_logo {
+		display: block;
+		margin: auto 0;
+		width: auto;
+		max-height: 100%;
+	}
+
+	.nav-item {
+		color: #fff;
+	}
+
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.icons {
+		color: white;
+		margin: auto;
+		position: relative;
+		background: black;
+		top: -15px;
+	}
+
+	.custom {
+		border: 1px solid white;
+		width: 297px;
+		margin: auto;
+		border-bottom: 0px;
+	}
+
+	h2 {
+		color: #ffffff;
+		font-weight: bold;
+		font-size: 22px;
+		font-family: 'Oswald', sans-serif;
+	}
+
+	h1 {
+		color: #ffffff;
+		font-size: 38px;
+		font-weight: bold;
+		font-family: 'Oswald', sans-serif;
+	}
+
+	span {
+		color: #ff9403;
+	}
+
+	.text {
+		margin-top: 30px;
+		text-align: center;
+	}
+
+	.bottom-content {
+		margin-top: 190px;
+		width: 100%;
+		position: relative;
+	}
+
+	.bottom-content .para {
+		color: #FFFFFF;
+		font-family: "Roboto Slab", Sans-serif;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 1.4em;
+	}
+
+	.bottom-content .col .head {
+		font-family: "Roboto", Sans-serif;
+		font-weight: bold;
+		font-size: 69px;
+		line-height: 1;
+		color: #ff9403;
+	}
+
+	.bottom-content .row .line {
+		border-bottom: 1px solid #FFFFFF;
+	}
+
+	.back {
+		background-color: black;
+	}
+
+	.footer p {
+		-webkit-text-fill-color: transparent;
+		-webkit-text-stroke-color: currentColor;
+		-webkit-text-stroke-width: 1px;
+		font-family: 'Bebas Neue', cursive;
+		font-size: 75px;
+		text-align: center;
+		margin-top: 30px;
+		color: #FFFFFF;
+		text-transform: uppercase;
+		font-weight: normal;
+		letter-spacing: 6px;
+	}
+
+	/* ---------------------- section complete -----------------------*/
+
+	/* compton section start */
+
+	.card_custom img {
+		width: 100%;
+	}
+
+	.card_custom {
+		border: none;
+	}
+
+	/* compton section start */
+
+
+	/* -----------------book section start------------ */
+
+	.image_book img {
+		width: 70%;
+		max-width: 100%;
+		max-height: 100%;
+		justify-content: center;
+		margin-left: 25%;
+	}
+
+	.bottom_book_content {
+		text-align: center;
+		margin: auto;
+	}
+
+	.bottom_book_content p {
+		font-size: 14px;
+	}
+
+	.arrow {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: inherit;
+		margin-top: 30px;
+	}
+
+	.arrow img {
+		transform: rotate(90deg);
+	}
+
+	hr {
+		margin: auto;
+		margin-bottom: 15px;
+		margin-top: 15px;
+
+	}
+
+	.right_content {
+		text-align: center;
+		margin: 0;
+		padding: 80px 10px 0px 10px;
+	}
+
+	.right_content .heading {
+		font-size: 22px;
+		line-height: 1.3em;
+	}
+
+	.book_para {
+		font-size: 14px;
+		line-height: 1.5em;
+	}
+
+	.hr2 {
+		margin-top: 70px;
+
+	}
+    /* ---------------- book section end ------------ */
+
+    /* --------------career section start ------- */
+
+    .head h1{
+        font-size: 43px;
+    }
+
+    .sub_head h4{
+        font-size: 14px;
+    }
+
+}
